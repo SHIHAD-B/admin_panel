@@ -1,0 +1,91 @@
+
+.whole{
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 40px;
+    background-image: linear-gradient(to right, darkblue,#0e1d28 );
+
+}
+.header-buttons  {
+    width: 100%;
+ }
+.btn{
+    float: right;
+    margin: 10px;
+}
+.use{
+    text-align: center;
+}
+.navbar{
+    background-color: rgb(38, 38, 46);
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.table-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.table-container th,
+.table-container td {
+    padding: 12px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+}
+
+.table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-container .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.edit:hover{
+    background-color: rgba(0, 145, 255, 0.815);
+    color: #ffff;
+}
+.delete:hover{
+    background-color: rgba(240, 7, 7, 0.815);
+    color: #ffff;
+}
+.grant:hover{
+    background-color: rgba(27, 249, 2, 0.815);
+    color: #ffff;
+}
+.block:hover{
+    color: #ffff;
+    background-color: rgba(235, 9, 9, 0.815);
+}
+.search-bar {
+    float: right;
+    margin-right: 10px;
+    position: relative;
+}
+
+#search-input {
+    padding: 5px 10px;
+    border: none;
+    margin-top: 11px;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
