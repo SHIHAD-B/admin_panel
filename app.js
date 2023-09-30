@@ -4,7 +4,7 @@ const session = require('express-session');
 const { connectToDb, getDb } = require('./models/mongodb');
 const { v4: uuidv4 } = require('uuid');
 const nocache = require('nocache');
-const route = require('./router/route');
+const route = require('./routes/route');
 const app = express();
 const port = 4000;
 

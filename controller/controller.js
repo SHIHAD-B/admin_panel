@@ -139,8 +139,7 @@ const add = async (req, res) => {
         res.render('adduser', { err: "user already exists" })
     } else {
         if (req.body.firstname.trim() === "" || req.body.secondname.trim() === "") {
-            res.render('adduser', { err: "First Name and Second Name cannot be empty or contain only spaces." })
-
+            res.render('adduser', { err: "First Name and Second Name cannot be empty or contain only spaces." });
         } else {
             const hashedPassword = bcrypt.hashSync(req.body.password, 10);
             const data = {
